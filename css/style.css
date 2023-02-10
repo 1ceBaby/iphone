@@ -88,7 +88,8 @@ body{
     padding: 90px 0 150px;
 }
 
-.title-new{
+.title-new,
+.color-title{
     text-transform: uppercase;
     color: #717171;
     font-size: 32px;
@@ -121,3 +122,23 @@ body{
     margin-left: 190px;
 }
 
+.color{
+    padding-bottom: 150px;
+}
+
+.color-list{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.color-item h3{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+
+.color-item p{
+    margin: 0;
+}
