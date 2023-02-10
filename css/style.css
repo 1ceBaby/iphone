@@ -142,3 +142,60 @@ body{
 .color-item p{
     margin: 0;
 }
+
+.contacts-info{
+    display: flex;
+    background-color: #574B63;
+    color: #fff;
+}
+
+.contacts-form{
+    width: 100%;
+    padding: 137px 93px;
+    text-align: center;
+}
+
+.contact-title{
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 0 62px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.contact-input{
+    margin: 0 0 20px;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #f5f5f5ff;
+    background-color: #574B63;
+}
+
+.contact-input::placeholder{
+    color: #fff;
+    opacity: .5;
+}
+
+.contacts-form p{
+    color: #fff;
+    opacity: .5;
+    margin: 30px 0;
+}
+
+.contacts-form button{
+    border:none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #490E84;
+    padding: 16px 80px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform .2s ease;
+}
+
+.contacts-form button:hover{
+    transform: scale(1.3);
+}
